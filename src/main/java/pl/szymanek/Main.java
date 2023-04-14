@@ -12,7 +12,6 @@ public class Main {
             System.out.println(s);
         }
     }
-
     public static void quickSort(int[] notSortedArray, int startIndex, int endIndex) {
         if (startIndex < endIndex) {
             int half = partitions(notSortedArray, startIndex, endIndex);
