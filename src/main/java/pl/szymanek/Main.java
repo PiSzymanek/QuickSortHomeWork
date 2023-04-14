@@ -24,7 +24,6 @@ public class Main {
 
     }
 
-
     public static int partitions(int[] notSortedArray, int startIndex, int endIndex) {
         int currentIndex = startIndex;
         int placeholder;
